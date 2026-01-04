@@ -53,7 +53,7 @@ def local_embedding(
     """
     # Validate inputs
     if not inputs:
-        return []
+        return []  
     
     if not all(isinstance(t, str) for t in inputs):
         raise ValueError("All inputs must be strings")
