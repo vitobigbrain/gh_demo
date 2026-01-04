@@ -1,0 +1,16 @@
+requests>=2.31.0
+urllib3<2.0
+
+# vector search demo deps
+numpy>=1.21.6,<2.0
+faiss-cpu==1.7.4
+
+# pdf chunking (langchain)
+langchain-community>=0.2.0
+langchain-text-splitters>=0.2.0
+pymupdf>=1.23.0
+tiktoken>=0.5.0
+
+# generation (openai)
+openai>=1.0.0
+

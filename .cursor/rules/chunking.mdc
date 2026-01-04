@@ -1,0 +1,7 @@
+---
+alwaysApply: true
+---
+
+## Chunking
+
+Use `document_process.py` for chunking documents rather than introducing new chunking logic elsewhere, so chunk sizing/overlap and token counting stay consistent across the project.

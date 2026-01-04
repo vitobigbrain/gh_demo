@@ -1,0 +1,12 @@
+---
+description: embedding service
+alwaysApply: false
+---
+Embedding service usage should utilize the `embedding.py` file,
+which provides a `local_embedding(inputs)` function for obtaining text embeddings.
+To use the embedding service, call `local_embedding` with a list of input texts.
+Example:
+     from embedding import local_embedding
+     vectors = local_embedding(["Your text here"])
+     # `vectors` will be a list of embedding vectors corresponding to the input texts.
+ 
